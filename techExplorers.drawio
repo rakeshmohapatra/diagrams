@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14" pages="2">
   <diagram name="Page-1" id="JIteSfPyZ_0T1WRYHiIJ">
     <mxGraphModel dx="1050" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -20,28 +20,52 @@
             <mxPoint x="370" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1-vy-4LVXqRcQbgJfH0z-8" value="Terraform" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1-vy-4LVXqRcQbgJfH0z-7">
-          <mxGeometry x="0.0881" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="1-vy-4LVXqRcQbgJfH0z-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1-vy-4LVXqRcQbgJfH0z-4" target="1-vy-4LVXqRcQbgJfH0z-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1-vy-4LVXqRcQbgJfH0z-4" value="If" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1-vy-4LVXqRcQbgJfH0z-6" value="List all the resoure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1-vy-4LVXqRcQbgJfH0z-6" value="Terraform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1-vy-4LVXqRcQbgJfH0z-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1-vy-4LVXqRcQbgJfH0z-10" value="Pulumi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1-vy-4LVXqRcQbgJfH0z-11" value="i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1-vy-4LVXqRcQbgJfH0z-11" value="Cloud Native" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1-vy-4LVXqRcQbgJfH0z-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1-vy-4LVXqRcQbgJfH0z-4" target="1-vy-4LVXqRcQbgJfH0z-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_BaIUYhuwGV5Xg7-iQTf" name="Page-2">
+    <mxGraphModel dx="1050" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d5WkfhpQqrkiqpsLgZy2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6GfLc-3-60OzHyjFSTNB-1" target="d5WkfhpQqrkiqpsLgZy2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6GfLc-3-60OzHyjFSTNB-1" value="distinct service provider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5WkfhpQqrkiqpsLgZy2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d5WkfhpQqrkiqpsLgZy2-1" target="d5WkfhpQqrkiqpsLgZy2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d5WkfhpQqrkiqpsLgZy2-1" value="Distinct IAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5WkfhpQqrkiqpsLgZy2-3" value="Azure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="118" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5WkfhpQqrkiqpsLgZy2-4" value="Arm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="258" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5WkfhpQqrkiqpsLgZy2-5" value="List of Supported Resource Type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
